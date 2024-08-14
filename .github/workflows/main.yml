@@ -10,4 +10,4 @@ jobs:
     steps: 
       - name: Check out file content
         uses: actions/checkout@v3
-      - run: echo "$(cat /etc/redhat-release)"
+      - run: echo "$(cat /etc/lsb-release)"
